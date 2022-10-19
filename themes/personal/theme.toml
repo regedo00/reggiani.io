@@ -1,0 +1,21 @@
+
+name = "Personal"
+license = "MIT"
+description = "A minimalist theme for Hugo inspired by Archie theme."
+homepage = "http://reggiani.io/"
+tags = []
+features = []
+min_version = "0.1.0"
+
+[author]
+  name = "Edo Reggiani"
+  homepage = "https://reggiani.io"
+
+# If porting an existing theme
+[original]
+  name = ""
+  homepage = ""
+  repo = ""
+
+[params]
+  css = ["css/custom.css"]

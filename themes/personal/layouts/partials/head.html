@@ -1,0 +1,53 @@
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    {{ $title := print .Site.Title " | " .Title }}
+    {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+    <title>{{ $title }}</title>
+
+    {{- if isset .Site.Params "favicon" -}}
+    {{ $favicon := .Site.Params.favicon }}
+    {{ range $favicon }}
+    {{ if ( eq .name "base") }}
+    <link rel="icon" href="{{ .Site.BaseURL }}/{{ .url }}">
+    {{ else if ( eq .name "apple") }}
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseURL }}/{{ .url }}">
+    {{ else if ( eq .name "16" )}}
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ .Site.BaseURL }}/{{ .url }}">
+    {{ else if ( eq .name "32" )}}
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ .Site.BaseURL }}/{{ .url }}">
+    {{ end }}
+    {{ end }}
+    {{ end }}
+
+    
+    {{ with .OutputFormats.Get "rss" -}}
+    {{ printf `
+    <link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end }}
+
+    {{- template "_internal/opengraph.html" . -}}
+    {{- template "_internal/twitter_cards.html" . -}}
+    
+    <script src="https://kit.fontawesome.com/f4920dc887.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    {{ $style := resources.Get "css/main.css" | fingerprint }}
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ $style.Permalink }}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    {{- if or (eq .Site.Params.mode "auto") (eq .Site.Params.mode "dark") (eq .Site.Params.mode "toggle") -}}
+    {{ $darkstyle := resources.Get "css/dark.css" | fingerprint }}
+    <link id="darkModeStyle" rel="stylesheet" type="text/css" href="{{ $darkstyle.Permalink }}" {{ if eq
+        .Site.Params.mode "auto" }}media="(prefers-color-scheme: dark)" {{ end }} {{ if eq .Site.Params.mode "toggle"
+        }}disabled{{ end }} />
+    {{ end }}
+    {{- if .Site.GoogleAnalytics }}
+    {{ template "_internal/google_analytics.html" . }}
+    {{- end}}
+
+</head>

@@ -1,0 +1,78 @@
+{{ define "main" }}
+<main>
+    <div class="container home-container">
+        <div class="columns">
+            <div class="column is-three-fifths is-offset-one-fifth">
+                <div>
+                    <h3 class="pb-4">
+                        {{ .Site.Params.description | markdownify }}
+                    </h3>
+                </div>   
+                <div>
+                    <h2 class="homepage-section-title">About
+                    </h2>
+                    <p class="pb-5 has-text-justified has-text-left-mobile">💸 Right now, I'm head of growth at <a href="https://www.backtowork24.com">BacktoWork</a>, one of the leading crowd-investing and club deal platform in Italy (backed by <a href="https://en.wikipedia.org/wiki/Intesa_Sanpaolo">Intesa Sanpaolo</a>).</br></br>
+                    🧊 I used to be a <a href="https://en.wikipedia.org/wiki/Short-track_speed_skating">speed skater</a> for the Italian national team, racing in many international competitions around the world.</br></br> 
+                    💻 I like startups, new technology, coding, skiing, cycling and mountaineering.</br></br>
+                    📰 <a href="https://twitter.com/EdoardoReggiani">Tweets</a> about startups and venture capital in Italy.</br></br>
+                    🗺️I'm fond of on-the-road travelling (50+ countries visited). In 2014 I did the <a href="https://en.wikipedia.org/wiki/Mongol_Rally">Mongol Rally</a> with 8 friends, going from Milan to Mongolia on a van.</p>
+                </div>  
+                <div class="homepage-lists">              
+                <div>
+                    <div class="homepage-section-title">
+                        <h2>Posts:</h2>
+                    </div>
+                    {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+				{{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
+				{{ range $paginator.Pages }}
+				<ul class="pt-3 pb-3">
+                    <li>
+					<h3 class="homepage-post-title pb-3"><a href="{{ .RelPermalink }}">{{.Title}}</a></h3>
+					<div class="post-description meta">
+                        <span>
+                            {{ dateFormat "Jan 2, 2006" .Date }}
+                        </span>
+                        <span> | </span>
+                        <span>
+                            {{ if ne .Type "page" }}
+                            {{ if gt .Params.tags 0 }}
+                                <ul class="tags-home">
+                                    {{ range .Params.tags }}
+                                    <li>{{ . }}</li>
+                                    {{ end }}
+                                </ul>
+                            {{ end }}
+                            {{ end }}
+                        </span>
+                        {{ if .Draft }} 
+                        <span class="draft-label">DRAFT</span> 
+                        {{ end }}
+                    </div>
+					<div class="post-description pt-1">
+						{{ if isset .Params "description" }}
+						{{ .Description | markdownify }}
+						{{ else }}
+						{{ .Summary | markdownify }}&hellip;
+						{{ end }}
+					</div>
+                </li>
+				</ul>
+				{{ end }}
+                <div class="pt-4">
+				{{ template "partials/paginator.html" . }}
+            </div>
+                <div>
+                    {{- if isset .Site.Params "credits" -}}
+                    <h2 class="homepage-section-title">Credits
+                    </h2>
+                    <p>
+                        {{ .Site.Params.credits | markdownify  }}
+                    </p>
+                    {{ end }}
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</main>
+{{ end }}

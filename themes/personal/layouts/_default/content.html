@@ -1,0 +1,23 @@
+{{ define "main" }}
+<main>
+    <div class="container">
+        <div class="columns">
+            <div class="column is-three-fifths is-offset-one-fifth">
+                <article>
+                    <div>
+                        <h2 class="pt-5 pb-4">{{ .Title }}</h2>
+                    </div>
+                    {{ if isset .Params "subtitle" }}
+                    <h3 class="pb-5">
+                        {{ .Params.subtitle }}
+                    </h3>
+                    {{ end }}
+                    <section class="body">
+                        {{ .Content }}
+                    </section>
+                </article>
+            </div>
+        </div>
+    </div>
+</main>
+{{ end }}

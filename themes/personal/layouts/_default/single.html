@@ -1,0 +1,46 @@
+{{ define "main" }}
+<main>
+    <div class="container">
+        <div class="columns">
+            <div class="column is-three-fifths is-offset-one-fifth">
+                <article>
+                        <h2 class="post-title pt-5 pb-2">{{ .Title }}</h2>
+                        <div class="meta pb-2">
+                            <span>
+                            Posted on {{ dateFormat "Jan 2, 2006" .Date }}
+                        </span>
+                        <span> | </span>
+                        <span>
+                            Reading time: 
+                            {{ $readTime := mul (div (countwords .Content) 220.0) 60 }}
+                            {{ $Minutes := math.Floor (div $readTime 60) }}
+                            {{ if gt $Minutes 0 }}
+                             {{ $Minutes }} min 
+                            {{ else }}
+                            {{ mod $readTime 60 }} sec
+                            {{ end }}
+                        </span>
+                    </div>
+                        {{ if .Draft }}
+                            <span class="draft-label">DRAFT</span> 
+                            {{ end }}
+                                <span class="tags meta">
+                                    {{ if ne .Type "page" }}
+                                    {{ if gt .Params.tags 0 }}
+                                        <ul>
+                                            {{ range .Params.tags }}
+                                            <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+                                            {{ end }}
+                                        </ul>
+                                    {{ end }}
+                                    {{ end }}
+                                </span>
+                    <section class="post-body pt-3">
+                        {{ .Content }}
+                    </section>
+                </article>
+            </div>
+        </div>
+    </div>
+</main>
+{{ end }}

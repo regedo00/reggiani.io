@@ -1,0 +1,50 @@
+baseURL: "https://reggiani.io"
+languageCode: en-us
+title: Edo Reggiani
+theme: "personal"
+copyright: "© Edo Reggiani"
+paginate: 5
+googleAnalytics: "G-10ZPWLWNXR"
+
+params:
+  mode: toggle
+  header: Hi there, I'm Edo
+  description: I'm a business developer, tech ethusiast, self-taught programmer and former speed skater from Italy.
+  author: Edo
+  credits: Layout inspired by [Archie theme](https://github.com/athul/archie)
+  images: 
+    - img/main_img.png
+  favicon:
+    - name: base
+      url: img/favicon.ico
+    - name: apple
+      url: img/apple-touch-icon.png
+    - name: 32
+      url: img/favicon-32x32.png
+    - name: 16
+      url: img/favicon-16x16.png
+  social:
+    - name: Twitter
+      url: https://twitter.com/EdoardoReggiani
+      weight: 1
+    - name: Linkedin
+      url: https://linkedin.com/in/edoardo-reggiani/
+      weight: 2
+    - name: Github
+      url: https://github.com/regedo00
+      weight: 3
+    - name: Telegram
+      url: https://t.me/Regedo00
+      weight: 4
+
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "Tweets"
+      url: "/tweets"
+      weight: 2
+    - name: "Blog"
+      url: "/blog"
+      weight: 3

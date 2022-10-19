@@ -1,0 +1,37 @@
+{{ define "main" }}
+<main>
+    <div class="container">
+        <div class="columns">
+            <div class="column is-three-fifths is-offset-one-fifth">
+                <article>
+                    <div>
+                        {{ if isset .Data "Term" }}
+                        <h2 class="pt-5 pb-4">Entries tagged - "{{ .Data.Term }}"</h2>
+                        {{ else }}
+                        <h2 class="pt-5 pb-4">All articles</h2>
+                        <div class="description pb-2">{{.Content}}</div>
+                        {{ end }}
+                    </div>
+                        <div class="homepage-post-list pb-2">
+    <ul>
+        {{- range .Data.Pages -}}
+        {{- if (not (in (.Site.Params.excludedTypes | default (slice "page")) .Type)) -}}
+        <li class="pb-2">
+            <h3>
+                <a class="homepage-post-title" href="{{ .RelPermalink }}">{{.Title}}</a>
+                <span> - </span>
+                <span class="meta">{{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft
+                }} <span class="draft-label">DRAFT</span> {{ end }}</span>
+            </h3>
+        </li>
+    {{ end }}
+    {{- end -}}
+</ul>
+<a class="ml-3" href="/tags/">All tags ⟶</a>
+</div>
+</article>
+</div>
+</div>
+</div>
+</main>
+{{ end }}

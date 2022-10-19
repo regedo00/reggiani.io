@@ -1,0 +1,29 @@
+<section class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-three-fifths is-offset-one-fifth">
+<footer>
+  <div class="columns">
+    <div class="column is-narrow-desktop is-centered">
+    <ul class="social-icons social-footer">
+      {{- range $index, $key := .Site.Params.Social -}}
+      <li>
+          <a href="{{ $key.url }}" title="{{ $key.name }}">
+              {{- partial "svg.html" . -}}
+          </a>
+        </li>
+      {{ end }}
+      </ul>
+    </div>
+    <div class="column">
+  <div class="footer-info">
+    {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} | {{ end }} Built with <a href="https://gohugo.io">Hugo</a> | hosted on <a
+    href="https://github.com">Github</a>
+  </div>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</div>
+</section>
