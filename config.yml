@@ -9,10 +9,10 @@ googleAnalytics: "G-10ZPWLWNXR"
 params:
   mode: toggle
   header: Hi there, I'm Edo
-  description: I'm a business developer, tech ethusiast, self-taught programmer and former speed skater from Italy.
+  description: I'm a business developer, tech enthusiast, self-taught programmer and former speed skater from Italy.
   author: Edo
   credits: Layout inspired by [Archie theme](https://github.com/athul/archie)
-  images: 
+  images:
     - img/main_img.png
   favicon:
     - name: base
