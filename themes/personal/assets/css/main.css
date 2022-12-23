@@ -333,6 +333,16 @@ time {
   content: none
 }
 
+.post-title a {
+  border-bottom: 0px;
+}
+
+.post-title a:hover {
+  background-color: var(--backgroundcolor);
+  color: var(--fontcolor);
+}
+
+
 .post-body {
   text-align: justify;
 }
@@ -554,4 +564,15 @@ table td {
 .video-shortcode {
   max-width: 100%;
   height: auto;
+}
+
+.back-arrow a {
+  font-size: 2rem;
+  font-weight: 600;
+  border-bottom: 0px;
+}
+
+.back-arrow a:hover {
+  background-color: var(--backgroundcolor);
+  color: var(--maincolor);
 }

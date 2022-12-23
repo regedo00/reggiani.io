@@ -131,6 +131,23 @@ h2::before {
   background-color: blue;
 }
 
+.back-arrow a {
+  font-size: 2rem;
+  font-weight: 600;
+  border-bottom: 0px;
+}
+
+.back-arrow a:hover {
+  background-color: var(--darkbackgroundcolor);
+  color: var(--maincolor)
+}
+
+.post-title a:hover {
+  background-color: var(--darkbackgroundcolor);
+  color: var(--backgroundcolor);
+}
+
+
 .highlight pre code[class=language-javaScript]::before,
 .highlight pre code[class="language-js"]::before {
   content: "js";

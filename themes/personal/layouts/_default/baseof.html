@@ -2,7 +2,12 @@
 <html>
 {{- partial "head.html" . -}}
 <section class="section">
-{{ partial "header.html" . }}
+    {{if .Params.exclude}}
+    {{ partial "back.html" . }}
+    {{ else }}
+    {{ partial "header.html" . }}
+    {{ end }}
+
 </section>
 <body>
     <div id="content">

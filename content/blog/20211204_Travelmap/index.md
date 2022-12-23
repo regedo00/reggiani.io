@@ -8,6 +8,7 @@ draft: false
 tags: ["Fun","Travel"]
 layout: single
 type: blog
+exclude: true
 ---
 {{<travelmap>}}
 

@@ -4,7 +4,16 @@
         <div class="columns">
             <div class="column is-three-fifths is-offset-one-fifth">
                 <article>
-                        <h2 class="post-title pt-5 pb-2">{{ .Title }}</h2>
+                        <h2 class="post-title pt-3 pb-2">
+                            <span>{{ .Title }}</span>
+                                <span>
+                                    {{ if eq .Site.Params.mode "toggle" -}}
+                                    <span class="toggle icon is-small">
+                                    <a id="dark-mode-toggle" onclick="toggleTheme()" href=""></a></span>
+                                    <script src="{{ .Site.BaseURL }}js/themetoggle.js"></script>
+                                    {{ end }}
+                                </span>
+                        </h2>
                         <div class="meta pb-2">
                             <span>
                             Posted on {{ dateFormat "Jan 2, 2006" .Date }}

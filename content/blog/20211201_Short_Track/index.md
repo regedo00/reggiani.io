@@ -10,6 +10,7 @@ draft: false
 tags: ["Blog","Sport"]
 layout: single
 type: blog
+exclude: true
 ---
 
 The only reason why you may have heard of short track speed skating is probably related to [Mr. Steven Bradbury](https://en.wikipedia.org/wiki/Steven_Bradbury) and his **epic journey to an Olympic gold medal**. 
