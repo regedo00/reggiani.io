@@ -10,7 +10,7 @@ layout: single
 type: blog
 exclude: true
 ---
-A couple of weeks ago, I embarked on a journey to create my own dashboard using the **Strava API**. As a longtime user of the app, I wanted to find a way to gain more insight into my workout data without upgrading to a premium account 😎. 
+A couple of weeks ago, I embarked on a journey to create my own dashboard using the **Strava APIs**. As a long-time user of the app, I was looking for a way to gain a deeper understanding of my workout data.
 
 &nbsp;
 
@@ -22,7 +22,7 @@ My main goal was to access past data and track my training progress over time. A
 
 &nbsp;
 
-The dashboard provides overall statistics and automatically generates individual pages with detailed plots for each selected sport. Check out the video below to see a sneak peek.
+The dashboard provides interactive charts, aggregated information, and automatically generates detailed report pages for the selected sport.. Check out the video below to see a sneak peek.
 
 &nbsp;
 
