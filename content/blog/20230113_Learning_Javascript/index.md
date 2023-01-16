@@ -1,6 +1,6 @@
 ---
 title: "How long before AI replaces online courses?"
-description: "📖 Learning Javascript with ChatGPT..."
+description: "📖 Learning JavaScript with ChatGPT..."
 images: 
     - images/javascript_1.png
 date: 2023-01-16
@@ -11,19 +11,19 @@ type: blog
 exclude: true
 ---
 
-For a few weeks now, I've been contemplating the idea of diving a little bit more into Javascript. Until now, for my personal coding projects, I have used snippets of Javascript found on Stackoverflow and handled most tasks on the server-side. However, this approach has its limitations.  
+For a few weeks now, I've been contemplating the idea of diving a little bit more into JavaScript. Until now, for my personal coding projects, I have used snippets of JavaScript found on Stackoverflow and handled most tasks on the server-side. However, this approach has its limitations.  
 
 &nbsp;
 
-With the start of the new year, I decided to make it one of my resolutions to learn enough Javascript to use a proper front-end framework. So I started scouring the internet for learning resources.
+With the start of the new year, I decided to make it one of my resolutions to learn enough JavaScript to use a proper front-end framework. So I started scouring the internet for learning resources.
 
 &nbsp;
 
-![ChatGPT Javascript 1](images/learn.jpg)
+![ChatGPT JavaScript 1](images/learn.jpg)
 
 &nbsp;
 
-Like a lot of people on the internet these days, I am also having fun experimenting with the potential of ChatGPT in different areas, from coding to copywriting. So, while I was searching for a Javascript course, it came to mind that I can try to use ChatGPT to make it teach me Javascript. 
+Like a lot of people on the internet these days, I am also having fun experimenting with the potential of ChatGPT in different areas, from coding to copywriting. So, while I was searching for a JavaScript course, it came to mind that I can try to use ChatGPT to make it teach me JavaScript. 
 
 &nbsp;
 
@@ -35,11 +35,11 @@ Sounds too good to be true? Let's find out!
 
 &nbsp;
 
-Let's start from the basics, can ChatGPT provide me with a Javascript course? Apparently yes, but it's modest.
+Let's start from the basics, can ChatGPT provide me with a JavaScript course? Apparently yes, but it's modest.
 
 &nbsp;
 
-![ChatGPT Javascript 1](images/javascript_1.png)
+![ChatGPT JavaScript 1](images/javascript_1.png)
 
 &nbsp;
 
@@ -47,12 +47,12 @@ Ignoring the statement that building a full course would require significant exp
 
 &nbsp;
 
-The answer retraces the main types of data used in Javascrip with examples for each of them. Not bad despite perhaps being a little too concise.
+The answer retraces the main types of data used in JavaScript with examples for each of them. Not bad despite perhaps being a little too concise.
 Let's move forward to discover "variables and data structure". 
 
 &nbsp;
 
-![ChatGPT Javascript 2](images/javascript_2.png)
+![ChatGPT JavaScript 2](images/javascript_2.png)
 
 &nbsp;
 
@@ -64,7 +64,7 @@ One of the significant downsides of online courses is the absence of direct inte
 
 &nbsp;
 
-![ChatGPT Javascript 3](images/javascript_3.png)
+![ChatGPT JavaScript 3](images/javascript_3.png)
 
 &nbsp;
 
@@ -76,7 +76,7 @@ Let's see how it performs on this question.
 
 &nbsp;
 
-![ChatGPT Javascript 4](images/javascript_4.png)
+![ChatGPT JavaScript 4](images/javascript_4.png)
 
 &nbsp;
 
@@ -89,7 +89,7 @@ Let's see how it goes by asking it to propose some exercises without a solution.
 
 &nbsp;
 
-![ChatGPT Javascript 5](images/javascript_5.png)
+![ChatGPT JavaScript 5](images/javascript_5.png)
 
 &nbsp;
 
@@ -97,7 +97,7 @@ Okay, this time it worked as I expected. I am presented with two exercises, with
 
 &nbsp;
 
-![ChatGPT Javascript 6](images/javascript_6.png)
+![ChatGPT JavaScript 6](images/javascript_6.png)
 
 &nbsp;
 
@@ -110,7 +110,7 @@ Let's try to bring attention to it and see what happens next.
 
 &nbsp;
 
-![ChatGPT Javascript 8](images/javascript_8.png)
+![ChatGPT JavaScript 8](images/javascript_8.png)
 
 &nbsp;
 
@@ -122,7 +122,7 @@ Now, I want to evaluate if it understands the proper way to generate exercises b
 
 &nbsp;
 
-![ChatGPT Javascript 9](images/javascript_9.png)
+![ChatGPT JavaScript 9](images/javascript_9.png)
 
 &nbsp;
 
@@ -138,7 +138,7 @@ Let's proceed to the next section of the course now.
 
 &nbsp;
 
-![ChatGPT Javascript 7](images/javascript_7.png)
+![ChatGPT JavaScript 7](images/javascript_7.png)
 
 &nbsp;
 
@@ -146,7 +146,7 @@ This exercise has come to an end.
 
 &nbsp;
 
-While my goal of learning Javascript is genuine and using ChatGPT is intriguing, it may not be the most suitable option for me at the moment, despite the potential it holds.
+While my goal of learning JavaScript is genuine and using ChatGPT is intriguing, it may not be the most suitable option for me at the moment, despite the potential it holds.
 
 &nbsp;
 
@@ -154,7 +154,7 @@ A structured course, designed by experienced educators, is likely still the best
 
 &nbsp;
 
-For my current goal of learning a bit of Javascript, I plan to take a hybrid approach for efficient progress.
+For my current goal of learning a bit of JavaScript, I plan to take a hybrid approach for efficient progress.
 
 &nbsp;
 
