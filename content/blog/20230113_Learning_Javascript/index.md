@@ -56,7 +56,7 @@ Let's move forward to discover "variables and data structure".
 
 &nbsp;
 
-At this stage, I have chose to test another possible feature. 
+At this stage, I have chosen to test another possible feature. 
 
 &nbsp;
 
