@@ -255,6 +255,16 @@ ul {
   padding-left: 1ch;
 }
 
+li {
+  margin-bottom: 0.5rem;
+}
+
+
+.list li a {
+  font-weight: 600;
+}
+
+
 .meta {
   color: var(--metacolor);
   letter-spacing: -0.5px;

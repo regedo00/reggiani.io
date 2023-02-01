@@ -19,7 +19,7 @@
                 <div class="homepage-lists">              
                 <div>
                     <div class="homepage-section-title">
-                        <h2>Posts:</h2>
+                        <h2>Articles:</h2>
                     </div>
                     {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
 				{{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}

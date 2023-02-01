@@ -39,7 +39,7 @@ params:
 
 menu:
   main:
-    - name: "Home"
+    - name: "About"
       url: "/"
       weight: 1
     - name: "Tweets"
@@ -48,3 +48,6 @@ menu:
     - name: "Blog"
       url: "/blog"
       weight: 3
+    - name: "Readings"
+      url: "/readlist"
+      weight: 4
