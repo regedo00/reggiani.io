@@ -17,9 +17,8 @@
     </div>
     <div class="column">
   <div class="footer-info">
-    {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} | {{ end }} Built with <a href="https://gohugo.io">Hugo</a> | hosted on <a
-    href="https://github.com/regedo00/reggiani.io">Github</a>
-  </div>
+    {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} | {{ end }} Built with <a href="https://gohugo.io">Hugo</a> ({{- if isset .Site.Params "credits" -}} {{ .Site.Params.credits | markdownify  }} {{ end }}) | hosted on <a
+    href="https://github.com/regedo00/reggiani.io">Github</a>                
 </div>
 </div>
 </footer>

@@ -11,12 +11,13 @@
                 <div>
                     <h2 class="homepage-section-title">About
                     </h2>
-                    <p class="pb-5 has-text-justified has-text-left-mobile">💸 Currently, I'm head of growth at <a href="https://www.backtowork24.com">BacktoWork</a>, one of the leading crowd-investing and club deal platform in Italy (backed by <a href="https://en.wikipedia.org/wiki/Intesa_Sanpaolo">Intesa Sanpaolo</a>).</br></br>
-                    🧊 I used to be a <a href="https://en.wikipedia.org/wiki/Short-track_speed_skating">speed skater</a> for the Italian national team, and I had the opportunity to race in various international competitions around the world.</br></br> 
+                    <p class="pb-5 has-text-justified has-text-left-mobile">💸 Currently, I am the head of growth at <a href="https://www.backtowork24.com">BacktoWork</a>, an Italian fundraising platform for startups (backed by <a href="https://en.wikipedia.org/wiki/Intesa_Sanpaolo">Intesa Sanpaolo</a>). Our goal is to help Italian companies such as WeRoad, e-Novia, Buddyfit, Weart, and Xnext secure funding from private investors through club deals and community rounds.</br></br>
+                    🧊 I used to be a <a href="https://en.wikipedia.org/wiki/Short-track_speed_skating">speed skater</a> for the Italian national team, and I had the opportunity to race in various international competitions around the world. Occasionally with some good results, especially in the relay race.</br></br> 
                     💻 I like startups, new tech, coding, skiing, cycling, and mountaineering.</br></br>    
-                    🗺️ I love to travel (mainly "on the road") and have been fortunate enough to visit over 50 countries. In 2014 I did the <a href="https://en.wikipedia.org/wiki/Mongol_Rally">Mongol Rally</a> with 8 friends, going from Milan to Mongolia on a van.</p>
+                    🗺️ With a strong love for travel, especially by land, I have been fortunate to visit over 50 countries to date. In 2014 I did the <a href="https://en.wikipedia.org/wiki/Mongol_Rally">Mongol Rally</a> with 8 friends, going from Milan to Mongolia on a van.</br></br>
+                    📬 You can reach me on <a href="https://twitter.com/EdoardoReggiani">Twitter</a>, <a href="https://linkedin.com/in/edoardo-reggiani/">Linkedin</a> or via <a href="mailto:reggiani.edoardo@gmail.com">email</a></p>
                 </div>  
-                <div class="homepage-lists">              
+                <div>              
                 <div>
                     <div class="homepage-section-title">
                         <h2>Articles:</h2>
@@ -57,18 +58,9 @@
                 </li>
 				</ul>
 				{{ end }}
-                <div class="pt-4">
+                <div class="pt-4 pb-5">
 				{{ template "partials/paginator.html" . }}
             </div>
-                <div>
-                    {{- if isset .Site.Params "credits" -}}
-                    <h2 class="homepage-section-title">Credits
-                    </h2>
-                    <p>
-                        {{ .Site.Params.credits | markdownify  }}
-                    </p>
-                    {{ end }}
-                </div>
             </div>
             </div>
         </div>

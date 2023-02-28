@@ -225,9 +225,29 @@ header .main {
   background-color: var(--backgroundcolor);
 }
 
+.toggle-icon {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.toggle-icon a {
+  color: var(--fontcolor);
+  text-decoration: none;
+  border-bottom: 0px;
+}
+
+.toggle-icon a:hover {
+  color: var(--fontcolor);
+  text-decoration: none;
+  border-bottom: 0px;
+  background-color: var(--backgroundcolor);
+}
+
 .toggle {
   font-size: 1rem;
 }
+
+
 
 /* Body */
 

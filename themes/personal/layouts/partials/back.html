@@ -3,11 +3,20 @@
     <div class="container">
         <div class="columns">
             <div class="column is-three-fifths is-offset-one-fifth pb-1">
-                <div>
-                    <h1 class="back-arrow">
-                    <a href="{{ .Site.BaseURL }}blog"><b>&#x2190</b></a>
-                </h1>
-                   </div>
+                <div class="columns is-flex-mobile mb-0 pb-0">
+                    <div class="column has-text-left pb-0">
+                        <h1 class="back-arrow">
+                            <a href="{{ .Site.BaseURL }}blog"><b>&#x2190</b></a>
+                        </h1>
+                    </div>
+                    <div class="column has-text-right is-narrow-mobile pl-0 pr-0 pb-0">
+                        <h1 class="toggle-icon pt-4">{{ if eq .Site.Params.mode "toggle" -}}
+                            <span class="toggle icon is-small">
+                            <a id="dark-mode-toggle" onclick="toggleTheme()" href=""></a></span>
+                            <script src="{{ .Site.BaseURL }}js/themetoggle.js"></script>
+                            {{ end }}</h1>
+                    </div>
+                  </div>
             </div>
         </div>
     </div>

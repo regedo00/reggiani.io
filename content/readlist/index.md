@@ -1,11 +1,13 @@
 ---
 title: Readings
-description: Cool reads on VC, startups, innovation, coding, and Tt
+description: Cool reads on VC, startups, innovation, coding, and tech
 draft: false
 subtitle: Cool reads on VC, startups, innovation, coding, and tech
 layout: content
 ---
-
+- [The vertical farming bubble is finally popping](https://www.fastcompany.com/90824702/vertical-farming-failing-profitable-appharvest-aerofarms-bowery)
+- [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide)
+- [Is Google’s 20-year dominance of search in peril?](https://www.economist.com/business/2023/02/08/is-googles-20-year-search-dominance-about-to-end)
 - [The generative AI revolution has begun—how did we get here?](https://arstechnica.com/gadgets/2023/01/the-generative-ai-revolution-has-begun-how-did-we-get-here)
 - [Pandas Illustrated: The Definitive Visual Guide to Pandas](https://scribe.citizen4.eu/pandas-illustrated-the-definitive-visual-guide-to-pandas-c31fa921a43)
 - [Forget unicorns - investors are looking for dragons](https://www.fastcompany.com/90835800/investors-want-dragons-not-unicorns)

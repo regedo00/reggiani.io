@@ -83,6 +83,21 @@ h2::before {
   background-color: var(--darkbackgroundcolor);
 }
 
+.toggle-icon a {
+  color: var(--darkfontcolor);
+  text-decoration: none;
+  border-bottom: 0px;
+}
+
+.toggle-icon a:hover {
+  color: var(--darkfontcolor);
+  text-decoration: none;
+  border-bottom: 0px;
+  background-color: var(--darkbackgroundcolor);
+}
+
+
+
 
 .navbar-left a {
   border-bottom: 3px solid var(--maincolor);
