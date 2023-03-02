@@ -5,6 +5,7 @@ draft: false
 subtitle: Cool reads on VC, startups, innovation, coding, and tech
 layout: content
 ---
+- [Startup Decoupling & Reckoning](https://blog.eladgil.com/p/startup-decoupling-and-reckoning)
 - [The vertical farming bubble is finally popping](https://www.fastcompany.com/90824702/vertical-farming-failing-profitable-appharvest-aerofarms-bowery)
 - [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide)
 - [Is Google’s 20-year dominance of search in peril?](https://www.economist.com/business/2023/02/08/is-googles-20-year-search-dominance-about-to-end)
