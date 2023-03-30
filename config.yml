@@ -3,7 +3,7 @@ languageCode: en-us
 title: Edo Reggiani
 theme: "personal" #["personal", "hugo-shortcode-gallery"]
 copyright: "© Edo Reggiani"
-paginate: 4
+paginate: 5
 googleAnalytics: "G-10ZPWLWNXR"
 
 params:
@@ -48,6 +48,6 @@ menu:
     - name: "Tweets"
       url: "/tweets"
       weight: 3
-    - name: "Readings"
-      url: "/readlist"
+    - name: "☕TRW"
+      url: "/trw"
       weight: 4

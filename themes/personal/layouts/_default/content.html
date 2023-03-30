@@ -9,7 +9,7 @@
                     </div>
                     {{ if isset .Params "subtitle" }}
                     <h3 class="pb-5">
-                        {{ .Params.subtitle }}
+                        {{ .Params.subtitle | markdownify  }}
                     </h3>
                     {{ end }}
                     <section class="body list">
