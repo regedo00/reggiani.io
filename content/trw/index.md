@@ -5,6 +5,7 @@ draft: false
 subtitle: My [weekly LinkedIn newsletter](https://www.linkedin.com/newsletters/7039008827605692416/) where I share in-depth tech industry insights, reports, and resources for founders, retail investors and everything in between.
 layout: content
 ---
+- *8 apr 2023* - [Issue #6](https://www.linkedin.com/pulse/tech-readings-week-6-edoardo-reggiani)
 - *1 apr 2023* - [Issue #5](https://www.linkedin.com/pulse/tech-readings-week-5-edoardo-reggiani)
 - *25 mar 2023* - [Issue #4](https://www.linkedin.com/pulse/tech-readings-week-4-edoardo-reggiani/)
 - *18 mar 2023* - [Issue #3](https://www.linkedin.com/pulse/tech-readings-week-3-edoardo-reggiani)
