@@ -1,4 +1,7 @@
 <head>
+  {{ if and (hugo.IsProduction) (.Site.Params.googleAnalyticsID) }}
+  {{ partial "analytics-gtag.html" . }}
+  {{ end }}
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -51,8 +54,4 @@
         .Site.Params.mode "auto" }}media="(prefers-color-scheme: dark)" {{ end }} {{ if eq .Site.Params.mode "toggle"
         }}disabled{{ end }} />
     {{ end }}
-    {{- if .Site.GoogleAnalytics }}
-    {{ template "_internal/google_analytics.html" . }}
-    {{- end}}
-
 </head>
