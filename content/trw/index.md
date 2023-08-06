@@ -9,6 +9,8 @@ layout: content
 
 &nbsp;
 
+- *jul 29 - 2023* - [Issue #21](http://www.linkedin.com/pulse/tech-readings-week-21-edoardo-reggiani)
+- *jul 22 - 2023* - [Issue #20](http://www.linkedin.com/pulse/tech-readings-week-20-edoardo-reggiani)
 - *jul 15 - 2023* - [Issue #19](http://www.linkedin.com/pulse/tech-readings-week-19-edoardo-reggiani)
 - *jul 08 - 2023* - [Issue #18](http://www.linkedin.com/pulse/tech-readings-week-18-edoardo-reggiani)
 - *jul 01 - 2023* - [Issue #17](https://www.linkedin.com/pulse/tech-readings-week-17-edoardo-reggiani)
