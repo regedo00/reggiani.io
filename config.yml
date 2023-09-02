@@ -1,7 +1,7 @@
 baseURL: "https://reggiani.io"
 languageCode: en-us
 title: Edo Reggiani
-theme: "personal" #["personal", "hugo-shortcode-gallery"]
+theme: "personal" #, "hugo-shortcode-gallery"]
 copyright: "© Edo Reggiani"
 paginate: 5
 googleAnalyticsID: G-10ZPWLWNXR
@@ -9,7 +9,8 @@ googleAnalyticsID: G-10ZPWLWNXR
 params:
   mode: toggle
   header: Hi there, I'm Edo
-  description: I'm a business developer, tech enthusiast and former speed skater from Italy.
+  description: Business development manager, tech enthusiast, former pro speed skater
+
   author: Edo
   credits: "[Archie theme](https://github.com/athul/archie)"
   images:

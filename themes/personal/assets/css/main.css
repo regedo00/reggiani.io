@@ -1,10 +1,24 @@
 /* Markdown */
-:root {
+/*:root {
   --maincolor: #00FFD1;
   --bordercl: rebeccapurple;
   --callouctcolor: dodgerblue;
   --hovercolor: #9818D6;
   --darkMaincolor: #50fa7b;
+  --fontcolor: #000;
+  --backgroundcolor: #fff;
+  --darkbackgroundcolor: #202124;
+  --darkfontcolor: #fff;
+  --metacolor: #999;
+}
+*/
+
+:root {
+  --maincolor: #00FFD1;
+  --bordercl: #247881;
+  --callouctcolor: dodgerblue;
+  --hovercolor: #247881;
+  --darkMaincolor: #00FFD1;
   --fontcolor: #000;
   --backgroundcolor: #fff;
   --darkbackgroundcolor: #202124;
@@ -77,6 +91,7 @@ a:hover {
   background-color: var(--hovercolor);
   color: #fff;
 }
+
 
 
 /* Images & Iframes*/
@@ -246,8 +261,6 @@ header .main {
 .toggle {
   font-size: 1rem;
 }
-
-
 
 /* Body */
 

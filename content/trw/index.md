@@ -2,13 +2,14 @@
 title: ☕ Tech Readings of the Week
 description: My weekly LinkedIn newsletter with insights, reports, and resources from the tech industry for founders, casual investors, and everything in between.
 draft: false
-subtitle: My [weekly Linkedin newsletter](https://www.linkedin.com/newsletters/7039008827605692416/), a container of thought-provoking tech articles, reports, and resources for founders, retail investors, and everyone in between.
+subtitle: My [weekly LinkedIn newsletter](https://www.linkedin.com/newsletters/7039008827605692416/), a container of thought-provoking tech articles, reports, and resources for founders, retail investors, and everyone in between.
 layout: content
 ---
 {{<linkedin>}}
 
 &nbsp;
 
+- *sep 2 - 2023* - [Issue #22](https://www.linkedin.com/pulse/trw-22-02-sep-2023-edoardo-reggiani)
 - *jul 29 - 2023* - [Issue #21](http://www.linkedin.com/pulse/tech-readings-week-21-edoardo-reggiani)
 - *jul 22 - 2023* - [Issue #20](http://www.linkedin.com/pulse/tech-readings-week-20-edoardo-reggiani)
 - *jul 15 - 2023* - [Issue #19](http://www.linkedin.com/pulse/tech-readings-week-19-edoardo-reggiani)
