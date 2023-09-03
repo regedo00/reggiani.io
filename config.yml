@@ -4,7 +4,7 @@ title: Edo Reggiani
 theme: "personal" #, "hugo-shortcode-gallery"]
 copyright: "© Edo Reggiani"
 paginate: 5
-googleAnalyticsID: G-10ZPWLWNXR
+googleAnalytics: G-10ZPWLWNXR
 
 params:
   mode: toggle

@@ -1,6 +1,6 @@
 <head>
-  {{ if and (hugo.IsProduction) (.Site.Params.googleAnalyticsID) }}
-  {{ partial "analytics-gtag.html" . }}
+  {{ if and (hugo.IsProduction) (.Site.googleAnalytics) }}
+  {{ template "_internal/google_analytics.html" . }}
   {{ end }}
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
