@@ -4,9 +4,9 @@ title: Edo Reggiani
 theme: "personal" #, "hugo-shortcode-gallery"]
 copyright: "© Edo Reggiani"
 paginate: 5
-googleAnalytics: G-10ZPWLWNXR
 
 params:
+  googleAnalytics: G-10ZPWLWNXR
   mode: toggle
   header: Hi there, I'm Edo
   description: Business development manager, tech enthusiast, former pro speed skater
