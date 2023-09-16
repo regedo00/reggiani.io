@@ -9,6 +9,7 @@ layout: content
 
 &nbsp;
 
+- *sep 16 - 2023* - [Issue #24](https://www.linkedin.com/pulse/trw-24-16-sep-2023-edoardo-reggiani)
 - *sep 9 - 2023* - [Issue #23](https://www.linkedin.com/pulse/trw-23-09-sep-2023-edoardo-reggiani)
 - *sep 2 - 2023* - [Issue #22](https://www.linkedin.com/pulse/trw-22-02-sep-2023-edoardo-reggiani)
 - *jul 29 - 2023* - [Issue #21](http://www.linkedin.com/pulse/tech-readings-week-21-edoardo-reggiani)
