@@ -5,7 +5,7 @@ images:
     - images/spider.jpg
 date: 2023-08-31
 draft: false
-tags: ["Work","Tech"]
+tags: ["work","tech"]
 layout: single
 type: blog
 ---

@@ -7,7 +7,7 @@ images:
     - images/st-1.jpg
 date: 2021-12-11
 draft: false
-tags: ["Blog","Sport"]
+tags: ["work","sport"]
 layout: single
 type: blog
 exclude: true

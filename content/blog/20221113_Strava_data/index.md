@@ -5,7 +5,7 @@ images:
     - images/Strava_Dash_1.png
 date: 2022-12-02
 draft: false
-tags: ["Blog","Sport"]
+tags: ["coding","sport"]
 layout: single
 type: blog
 exclude: true

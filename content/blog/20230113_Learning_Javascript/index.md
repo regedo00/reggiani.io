@@ -5,7 +5,7 @@ images:
     - images/javascript_1.png
 date: 2023-01-16
 draft: false
-tags: ["Coding","Fun"]
+tags: ["coding","fun"]
 layout: single
 type: blog
 exclude: true

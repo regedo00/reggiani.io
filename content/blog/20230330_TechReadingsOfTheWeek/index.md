@@ -5,8 +5,7 @@ images:
     - images/Jumanji.png
 date: 2023-04-30
 draft: false
-tags: ["fun", "Work"]
-layout: single
+tags: ["fun", "tech"]
 type: blog
 ---
 ![Jumanji](images/Jumanji.png)

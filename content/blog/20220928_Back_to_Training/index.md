@@ -5,7 +5,7 @@ images:
     - images/training.png
 date: 2022-09-28
 draft: false
-tags: ["Blog","Sport"]
+tags: ["fun","sport"]
 layout: single
 type: blog
 ---
