@@ -1,5 +1,5 @@
 ---
-title: "Some takeaways from micro exit"
+title: "Some takeaways from a micro exit"
 description: "📚 A few days back, I received the payout from the exit..."
 images: 
     - images/gohenry_def.png
