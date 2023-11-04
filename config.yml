@@ -1,7 +1,7 @@
 baseURL: "https://reggiani.io"
 languageCode: en-us
 title: Edo Reggiani
-theme: "personal" #, "hugo-shortcode-gallery"]
+theme: "personal" #, "hugo-shortcode-gallery"
 copyright: "© Edo Reggiani"
 paginate: 5
 googleAnalytics: G-10ZPWLWNXR
@@ -46,9 +46,6 @@ menu:
     - name: "Blog"
       url: "/blog"
       weight: 2
-    - name: "Tweets"
-      url: "/tweets"
-      weight: 3
-    - name: "☕TRW"
+    - name: "Newsletter"
       url: "/trw"
-      weight: 4
+      weight: 3
