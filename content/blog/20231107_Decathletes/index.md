@@ -34,6 +34,10 @@ On the other hand, as [Crunchbase funding statistics](https://news.crunchbase.co
 
 &nbsp;
 
+![Funding](images/global_funding.png)
+
+&nbsp;
+
 A market turnaround doesn't appear to be imminent. Nevertheless, there are numerous takeaways📌 from the essay. 
 
 &nbsp;
@@ -47,6 +51,10 @@ The question arises: what impact will AI have in this scenario?
 &nbsp;
 
 According to [Layoffs.fyi](https://layoffs.fyi) 📊, there have been more than 248,000 tech-related layoffs worldwide since the start of the year. Following more than 164k in 2022.
+
+&nbsp;
+
+![Layoffs](images/layoffs.png)
 
 &nbsp;
 
