@@ -9,6 +9,7 @@ layout: content
 
 &nbsp;
 
+- *nov 11 - 2023* - [Issue #31](https://www.linkedin.com/pulse/trw-31-11-nov-2023-edoardo-reggiani-newnf)
 - *oct 28 - 2023* - [Issue #30](https://www.linkedin.com/pulse/trw-30-28-oct-2023-edoardo-reggiani-akbqf)
 - *oct 21 - 2023* - [Issue #29](https://www.linkedin.com/pulse/trw-29-21-oct-2023-edoardo-reggiani-75qmf)
 - *oct 14 - 2023* - [Issue #28](https://www.linkedin.com/pulse/trw-28-14-oct-2023-edoardo-reggiani-motpf/)
