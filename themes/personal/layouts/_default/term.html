@@ -6,9 +6,9 @@
                 <article>
                     <div>
                         {{ if isset .Data "Term" }}
-                        <h2 class="pt-5 pb-4">Entries tagged - "{{ .Data.Term }}"</h2>
+                        <h1 class="pt-5 pb-4">Entries tagged - "{{ .Data.Term }}"</h1>
                         {{ else }}
-                        <h2 class="pt-5 pb-4">All articles</h2>
+                        <h1 class="pt-5 pb-4">All articles</h1>
                         <div class="description pb-2">{{.Content}}</div>
                         {{ end }}
                     </div>
@@ -19,8 +19,8 @@
         <li class="pb-2">
             <h3>
                 <a class="homepage-post-title" href="{{ .RelPermalink }}">{{.Title}}</a>
-                <span> - </span>
-                <span class="meta">{{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft
+                <span class="list-date"> - </span>
+                <span class="list-date">{{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft
                 }} <span class="draft-label">DRAFT</span> {{ end }}</span>
             </h3>
         </li>

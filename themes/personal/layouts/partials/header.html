@@ -1,30 +1,30 @@
 <header>
-    <div class="container">
-        <div class="columns">
-            <div class="column is-three-fifths is-offset-one-fifth pb-1">
-                <div class="columns is-flex-mobile mb-0 pb-0">
-                    <div class="column has-text-left pb-0">
-                      <h1 class="title pt-5"><a href="{{ .Site.BaseURL }}">{{ .Site.Params.header }}</a></h1>
-                    </div>
-                    <div class="column has-text-right is-narrow-mobile pl-0 pr-0 pb-0">
-                        <h1 class="toggle-icon pt-4">{{ if eq .Site.Params.mode "toggle" -}}
-                            <span class="toggle icon is-small">
-                            <a id="dark-mode-toggle" onclick="toggleTheme()" href=""></a></span>
-                            <script src="{{ .Site.BaseURL }}js/themetoggle.js"></script>
-                            {{ end }}</h1>
-                    </div>
-                  </div>
-            <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
-                <div class="navbar-left navbar-start">
-                    {{ range .Site.Menus.main }}
-                    <div class="navbar-item">
-                    <a href="{{ .URL }}"> {{ .Name }}</a></div>
-                    {{ end }}
-                    
-                </div>
-                </nav>
-                </div>
-            </div>
+<div class="container is-max-desktop">
+<div class="header pt-5">
+    <div class="header__inner">
+      <div class="header__logo">
+        <a href="{{ .Site.BaseURL }}">{{ .Site.Params.header }}</a>
         </div>
+        <div class="toggler has-centered-content">
+            {{ if eq .Site.Params.mode "toggle" -}}
+            <span class="toggle-icon is-small">
+                <a id="dark-mode-toggle" onclick="toggleTheme()" href=""></a>
+            </span>
+            <script src="{{ .Site.BaseURL }}js/themetoggle.js"></script>
+            {{ end }}
+        </div>
+        </div>
+        </div>
+        <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+            <div class="navbar-left navbar-start">
+                {{ $currentPage := . }}
+                {{ range .Site.Menus.main }}
+                    <div class="navbar-item {{ if eq $currentPage.RelPermalink .URL }}is-active{{ end }}">
+                        <a href="{{ .URL }}">{{ .Name }}</a>
+                    </div>
+                {{ end }}
+                
+            </div>
+            </nav>
     </div>
 </header>

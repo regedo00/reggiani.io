@@ -1,0 +1,19 @@
+
+{{ define "main"}}
+    <main id="main">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-three-fifths is-offset-one-fifth">
+      <div class="has-text-centered">
+        <img src="{{ .Site.BaseURL }}/img/kenobi.png" alt="Kenobi" width="20%">
+        <h3 class="pt-1 pb-3">
+            <b>Ops, 404!<br><bt>
+            These aren't the droids you're looking for...</b>
+        </h3>
+       <a class="ml-3 mb-5" href="{{ "" | relURL }}">⟵ Go home</a> 
+      </div>
+                </div>
+            </div>
+        </div>
+    </main>
+{{ end }}

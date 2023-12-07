@@ -1,70 +1,142 @@
 {{ define "main" }}
 <main>
-    <div class="container home-container">
-        <div class="columns">
-            <div class="column is-three-fifths is-offset-one-fifth">
+    <div class="container is-max-desktop">
+<section class="pt-5 pb-5">
+        <div class="columns pt-5 mb-5">
+            <div class="column is-half-desktop is-mobile pr-4 is-flex is-vcentered">
                 <div>
-                    <h3 class="pb-4">
-                        {{ .Site.Params.description | markdownify }}
-                    </h3>
-                </div>   
-                <div>
-                    <h2 class="homepage-section-title">About
-                    </h2>
-                    <p class="pb-5 has-text-justified has-text-left-mobile">💸 Currently Head of Business Development at <a href="https://www.backtowork24.com">BacktoWork</a> (backed by <a href="https://en.wikipedia.org/wiki/Intesa_Sanpaolo">Intesa Sanpaolo</a>), helping Italian startups to raise funds from retail and HNWI investors via club deals & community rounds.</br></br> 
-                    🧊 I used to be a <a href="https://en.wikipedia.org/wiki/Short-track_speed_skating">speed skater</a> for the Italian National Team, and I had the opportunity to race in several international competitions around the world.</br></br> 
-                    💡 Enthusiastic about innovation, technology, and new ventures.</br></br>    
-                    🌍 Avid traveller. More than 50 countries visited so far. In 2014, I completed the <a href="https://en.wikipedia.org/wiki/Mongol_Rally">Mongol Rally</a> with 7 friends.</br></br> 
-                    📫 Every week I share <a href ="https://www.linkedin.com/newsletters/7039008827605692416/?displayConfirmation=true">☕Tech Readings of the Week</a> on LinkedIn. A handpicked selection of insightful tech readings, reports, educational resources, and memes.</br></br> 
-                    🤝 Let's connect on <a href="https://twitter.com/EdoardoReggiani">Twitter</a>, <a href="https://linkedin.com/in/edoardo-reggiani/">LinkedIn</a> or <a href="mailto:reggiani.edoardo@gmail.com">email</a> me.</p>
-                </div>  
-                <div>              
-                <div>
-                    <div class="homepage-section-title">
-                        <h2>Blog:</h2>
-                    </div>
-                    {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-				{{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
-				{{ range $paginator.Pages }}
-				<ul class="pt-3 pb-3">
-                    <li>
-					<h3 class="homepage-post-title pb-2"><a href="{{ .RelPermalink }}">{{.Title}}</a></h3>
-					<div class="post-description meta">
-                        <span>
-                            {{ dateFormat "Jan 2, 2006" .Date }}
-                        </span>
-                        <span> | </span>
-                        <span>
-                            {{ if ne .Type "page" }}
-                            {{ if gt .Params.tags 0 }}
-                                <ul class="tags-home">
-                                    {{ range .Params.tags }}
-                                    <li>{{ . }} </li>
-                                    {{ end }}
-                                </ul>
-                            {{ end }}
-                            {{ end }}
-                        </span>
-                        {{ if .Draft }} 
-                        <span class="draft-label">DRAFT</span> 
+                    <p class="py-3 home-text">Hello there! I'm <b>Edo</b>. <br><br>
+                        I'm a <b>technology</b> enthusiast with a deep understanding of <b>startups</b> and <b>fundraising</b>, particularly through syndicates and community rounds.<br><br> I'm also a passionate <b>traveller</b>, a self thought <b>python programmer</b>, a wannabe mountaineer, and a former <b>pro speed skater</b> for the Italian National Team.</p>
+                </div>
+        </div>
+        <div class="column is-half-desktop is-mobile pl-4 is-flex is-vcentered">
+            <div class="rectangle">
+                <h2 class="pb-3">Latest</h2>
+                <div class="py-3 home-text home-text-list"> 
+                    <ul>
+                        {{ $latestBlogs := where .Site.RegularPages "Section" "blogs" }}
+                        {{ $latestStuff := where .Site.RegularPages "Section" "stuff" }}
+                        
+                        {{ $latestContent := sort (union $latestBlogs $latestStuff) ".Date" | last 3 }}
+                        
+                        {{ range $latestContent }}
+                            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                         {{ end }}
-                    </div>
-					<div class="post-description pt-1">
-						{{ if isset .Params "description" }}
-						{{ .Description | markdownify }}
-						{{ else }}
-						{{ .Summary | markdownify }}&hellip;
-						{{ end }}
-					</div>
-                </li>
-				</ul>
-				{{ end }}
+                    </ul>
+                </div>
+            </div>
+    </div>
+</div>
+</section>
+<section>
+    <div class="upper-dotted"></div>
+    <div class="hero">
+    <div class="hero-body">
+      <div class=" title pb-5">
+        Let's connect to explore opportunities and exchange ideas
+      </div>
+      <p class="subtitle home-text">
+        DM me on
+            {{ range $social := .Site.Params.social }}
+                {{ with index $social "name" }}
+                    {{ if eq . "LinkedIn" }}
+                        <a href="{{ index $social "url" }}"><b>{{ . }}</b></a>,
+                    {{ else if eq . "X" }}
+                        <a href="{{ index $social "url" }}"><b>{{ . }}</b></a>,
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+
+            or send me an email at: {{ .Site.Params.email | markdownify }}.
+      </p>
+    </div>
+</div>
+<div class="lower-dotted"></div>
+  </section>
+  <section class="mt-5">
+    <div class="columns pt-5">
+        <div class="column is-half-desktop is-mobile">
+            <h2 class="mt-4">Blog:</h2>
+            <div>
+                {{ range first 5 (where .Site.RegularPages "Section" "blogs") }}
+                    <ul class="pt-3 pb-3">
+                        <li>
+                            <h3 class="homepage-post-title pb-2"><a href="{{ .RelPermalink }}">{{.Title}}</a></h3>
+                            <div class="post-info">
+                                <span>{{ dateFormat "Jan 2, 2006" .Date }}</span>
+                                <span> | </span>
+                                <span>
+                                    {{ if ne .Type "page" }}
+                                        {{ if gt .Params.tags 0 }}
+                                            <ul class="tags-home">
+                                                {{ range .Params.tags }}
+                                                    <li>{{ . }} </li>
+                                                {{ end }}
+                                            </ul>
+                                        {{ end }}
+                                    {{ end }}
+                                </span>
+                                {{ if .Draft }} 
+                                    <span class="draft-label">DRAFT</span> 
+                                {{ end }}
+                            </div>
+                            <div class="post-description pt-1">
+                                {{ if isset .Params "description" }}
+                                    {{ .Params.description | markdownify }}
+                                {{ else }}
+                                    {{ .Summary | markdownify }}&hellip;
+                                {{ end }}
+                            </div>
+                        </li>
+                    </ul>
+                {{ end }}
                 <div class="pt-4 pb-5">
-				{{ template "partials/paginator.html" . }}
+                    <a class="ml-3 mb-5" href="/blogs/">All Entries ⟶</a>
+                </div>
             </div>
-            </div>
+        </div>
+        <div class="column is-half-desktop is-mobile divider">
+            <h2 class="mt-4">Stuff:</h2>
+            <div>
+                {{ range first 5 (where .Site.RegularPages "Section" "stuff") }}
+                    <ul class="pt-3 pb-3">
+                        <li>
+                            <h3 class="homepage-post-title pb-2"><a href="{{ .RelPermalink }}">{{.Title}}</a></h3>
+                            <div class="post-info">
+                                <span>{{ dateFormat "Jan 2, 2006" .Date }}</span>
+                                <span> | </span>
+                                <span>
+                                    {{ if ne .Type "page" }}
+                                        {{ if gt .Params.tags 0 }}
+                                            <ul class="tags-home">
+                                                {{ range .Params.tags }}
+                                                    <li>{{ . }} </li>
+                                                {{ end }}
+                                            </ul>
+                                        {{ end }}
+                                    {{ end }}
+                                </span>
+                                {{ if .Draft }} 
+                                    <span class="draft-label">DRAFT</span> 
+                                {{ end }}
+                            </div>
+                            <div class="post-description pt-1">
+                                {{ if isset .Params "description" }}
+                                    {{ .Params.description | markdownify }}
+                                {{ else }}
+                                    {{ .Summary | markdownify }}&hellip;
+                                {{ end }}
+                            </div>
+                        </li>
+                    </ul>
+                {{ end }}
+                <div class="pt-4 pb-5">
+                    <a class="ml-3 mb-5" href="/stuff/">All Entries ⟶</a>
+                </div>
             </div>
         </div>
     </div>
+</section>
+</div>
 </main>
 {{ end }}

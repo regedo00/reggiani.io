@@ -6,7 +6,11 @@
                 <div class="columns is-flex-mobile mb-0 pb-0">
                     <div class="column has-text-left pb-0">
                         <h1 class="back-arrow">
-                            <a href="{{ .Site.BaseURL }}blog"><b>&#x2190</b></a>
+                            {{if eq .Params.type "blog"}}
+                                <a href="{{ .Site.BaseURL }}blogs"><b>&#x2190</b></a>
+                            {{else if eq .Params.type "stuff"}}
+                                <a href="{{ .Site.BaseURL }}stuff"><b>&#x2190</b></a>
+                            {{end}}
                         </h1>
                     </div>
                     <div class="column has-text-right is-narrow-mobile pl-0 pr-0 pb-0">

@@ -4,16 +4,20 @@
         <div class="columns">
             <div class="column is-three-fifths is-offset-one-fifth">
                 <article>
-                    <div>
-                        <h2 class="pt-5 pb-4">{{ .Title }}</h2>
-                    </div>
-                    {{ if isset .Params "subtitle" }}
-                    <h3 class="pb-5">
-                        {{ .Params.subtitle | markdownify  }}
-                    </h3>
-                    {{ end }}
-                    <section class="body list">
-                        {{ .Content }}
+                    <section>
+                        <div class="mb-5">
+                            <h1 class="pt-5">{{ .Title }}</h1>
+                            {{ if isset .Params "subtitle" }}
+                                <h3 class="pb-5">
+                                    {{ .Params.subtitle | markdownify  }}
+                                </h3>
+                            {{ end }}
+                        </div>
+                    </section>
+                    <section>
+                        <p class="post-body is-justify-content-flex-start	">
+                            {{ .Content }}
+                        </p>
                     </section>
                 </article>
             </div>

@@ -1,218 +1,191 @@
 html {
-  background-color: #202124;
+  background-color: var(--darkbackgroundcolor);
 }
+
 
 body {
-  color: white;
+  color: var(--darkfontcolor);
 }
 
-strong {
-  color: white;
-}
 
 ::-moz-selection {
   background: blue;
-  color: var(--darkfontcolor);
+  color: var(--titlecolor);
   text-shadow: none;
 }
 
 ::selection {
-  background: rgb(152, 24, 214, 0.5);
+  background: var(--darkfontcolor);
+  color: var(--darkbackgroundcolor);
 }
 
-hr {
-  border-top: 3px dotted blue;
+
+a {
+  font-family: var(--mainfont);
+  color: var(--darkfontcolor);
+  text-decoration: underline;
 }
 
-code {
-  background-color: lightblue;
-  color: black;
-  text-decoration: bold;
-  padding: 0.1em 0.2em;
+a:hover {
+  color: var(--fontcolor);
+  background-color: var(--darkfontcolor);
 }
 
-pre {
-  background-color: #272822;
-  line-height: 1.4;
-  overflow-x: auto;
-  padding: 1em;
+strong {
+  color: var(--darkfontcolor);
 }
 
-blockquote {
-  border-color: blue;
+.subtitle strong {
+  color: var(--darkfontcolor);
 }
+
+.is-active {
+  text-decoration: underline;
+  text-decoration-color: var(--darkfontcolor);
+}
+
+h1 {
+  color: var(--darkfontcolor);
+}
+
 
 h2 {
-  font-size: 1.5rem;
-  font-weight: 600;
+  color: var(--darkfontcolor);
 }
 
 
 h2::before {
-  color: var(--hovercolor);
-  content: '# ';
-}
-
-.site-description a {
-  color: #ddd;
-}
-
-.site-description a:hover {
-  color: black;
-}
-
-.tags a {
-  border-bottom: 3px solid var(--maincolor);
-}
-
-.tags a:hover {
-  background-color: var(--hovercolor);
-  color: #fff;
-}
-
-.title a {
   color: var(--darkfontcolor);
-  text-decoration: none;
-  border-bottom: 0px;
 }
 
-.title a:hover {
+h3 {
   color: var(--darkfontcolor);
-  text-decoration: none;
-  border-bottom: 0px;
+}
+
+p {
+  color: var(--darkfontcolor);
+}
+
+li::before {
+  color: var(--darkfontcolor);
+}
+
+blockquote {
+  border-left: 3px solid var(--darkfontcolor);
+}
+
+
+.header__logo a {
+  background-color: var(--darkfontcolor);
+  color: var(--darkbackgroundcolor);
+}
+
+.header__logo a:hover {
+  background-color: var(--darkfontcolor);
+  color: var(--darkbackgroundcolor);
+}
+
+.header__logo:after {
+  background: repeating-linear-gradient(90deg, var(--darkfontcolor), var(--darkfontcolor) 2px, transparent 0, transparent 10px);
+}
+
+.toggler {
+  border: 2px solid var(--darkfontcolor);
+}
+
+.toggle-icon {
   background-color: var(--darkbackgroundcolor);
 }
 
 .toggle-icon a {
+  background-color: var(--darkbackgroundcolor);
   color: var(--darkfontcolor);
-  text-decoration: none;
-  border-bottom: 0px;
 }
 
 .toggle-icon a:hover {
+  background-color: var(--darkbackgroundcolor);
   color: var(--darkfontcolor);
-  text-decoration: none;
-  border-bottom: 0px;
+}
+
+.navbar-item a {
+  color: var(--darkfontcolor);
+}
+
+.navbar {
   background-color: var(--darkbackgroundcolor);
 }
 
-
-
-
-.navbar-left a {
-  border-bottom: 3px solid var(--maincolor);
-  color: var(--darkfontcolor);
-  text-decoration: none;
+.navbar-item a:hover {
+  color: var(--fontcolor);
+  background-color: var(--darkfontcolor);
 }
 
-.navbar-left a:hover {
-  background-color: var(--hovercolor);
+.title {
   color: var(--darkfontcolor);
 }
 
-.subtitle {
-  font-size: 1.25rem;
+.rectangle {
+  border: 2px solid var(--darkfontcolor);
+}
+
+.upper-dotted {
+  border-top: 3px dotted var(--darkfontcolor);
+}
+
+.upper-dotted:after {
+  border-top: 3px dotted var(--darkfontcolor);
+}
+
+.lower-dotted {
+  border-bottom: 3px dotted var(--darkfontcolor);
+}
+
+.lower-dotted:after {
+  border-bottom: 3px dotted var(--darkfontcolor);
+}
+
+.home-text {
   color: var(--darkfontcolor);
 }
 
+
+.tags li::before {
+  color: var(--darkfontcolor);
+}
+
+.tags a {
+  color: var(--darkfontcolor);
+}
+
+.tags a:hover {
+  color: var(--fontcolor);
+  background-color: var(--darkfontcolor);
+}
 
 .social-icons a {
   color: var(--darkfontcolor);
-  margin-inline-end: 12px;
 }
 
 .social-icons a:hover {
   color: var(--darkfontcolor);
-  background-color: var(--hovercolor);
-
+  background-color: var(--darkbackgroundcolor);
 }
 
-
-.header nav,
-.footer {
-  border-color: #333;
+.footer-info {
+  color: var(--darkfontcolor);
 }
 
-.highlight {
-  background-color: #333;
+.divider {
+  border: none;
 }
 
-.soc:hover {
-  color: black;
-}
-
-.draft-label {
-  color: var(--darkMaincolor);
-  background-color: blue;
-}
-
-.back-arrow a {
-  font-size: 2rem;
-  font-weight: 600;
-  border-bottom: 0px;
+@media only screen and (max-width: 767px) {
+  .divider {
+    border-top: 3px dotted var(--darkfontcolor)
+  }
 }
 
 .back-arrow a:hover {
   background-color: var(--darkbackgroundcolor);
-  color: var(--maincolor)
-}
-
-.post-title a:hover {
-  background-color: var(--darkbackgroundcolor);
-  color: var(--backgroundcolor);
-}
-
-
-.highlight pre code[class=language-javaScript]::before,
-.highlight pre code[class="language-js"]::before {
-  content: "js";
-  background: #f7df1e;
-  color: black;
-}
-
-.highlight pre code[class*='language-yml']::before,
-.highlight pre code[class*='language-yaml']::before {
-  content: 'yaml';
-  background: #f71e6a;
-  color: white;
-}
-
-.highlight pre code[class*='language-shell']::before,
-.highlight pre code[class*='language-bash']::before,
-.highlight pre code[class*='language-sh']::before {
-  content: 'shell';
-  background: green;
-  color: white
-}
-
-.highlight pre code[class*='language-json']::before {
-  content: 'json';
-  background: dodgerblue;
-  color: #000000
-}
-
-.highlight pre code[class*='language-python']::before,
-.highlight pre code[class*='language-py']::before {
-  content: 'py';
-  background: blue;
-  color: yellow;
-}
-
-.highlight pre code[class*='language-css']::before {
-  content: 'css';
-  background: cyan;
-  color: black;
-}
-
-.highlight pre code[class*='language-go']::before {
-  content: 'Go';
-  background: cyan;
-  color: royalblue;
-}
-
-.highlight pre code[class*='language-md']::before,
-.highlight pre code[class*='language-md']::before {
-  content: 'Markdown';
-  background: royalblue;
-  color: whitesmoke;
+  color: var(--darkfontcolor);
 }

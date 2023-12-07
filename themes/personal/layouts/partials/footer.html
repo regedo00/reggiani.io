@@ -1,28 +1,25 @@
-<section class="section">
-    <div class="container">
-        <div class="columns">
-            <div class="column is-three-fifths is-offset-one-fifth">
 <footer>
-  <div class="columns">
-    <div class="column is-narrow-desktop is-centered">
-    <ul class="social-icons social-footer">
-      {{- range $index, $key := .Site.Params.Social -}}
-      <li>
-          <a href="{{ $key.url }}" title="{{ $key.name }}">
-              {{- partial "svg.html" . -}}
-          </a>
-        </li>
-      {{ end }}
-      </ul>
+  <div class="container is-max-desktop">
+    <div class="upper-dotted">
+      <div class="columns pt-5 is-flex is-justify-content-center is-multiline">
+        <div class="column is-narrow-desktop is-full-mobile">
+          <ul class="social-icons social-footer">
+            {{- range $index, $key := .Site.Params.Social -}}
+            <li>
+              <a href="{{ $key.url }}" title="{{ $key.name }}">
+                {{- partial "svg.html" . -}}
+              </a>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+        <div class="column is-full-mobile">
+          <div class="footer-info">
+            {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} | {{ end }} Built with <a href="https://gohugo.io">Hugo</a> | hosted on <a
+              href="https://github.com/regedo00/reggiani.io">Github</a>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="column">
-  <div class="footer-info">
-    {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} | {{ end }} Built with <a href="https://gohugo.io">Hugo</a> ({{- if isset .Site.Params "credits" -}} {{ .Site.Params.credits | markdownify  }} {{ end }}) | hosted on <a
-    href="https://github.com/regedo00/reggiani.io">Github</a>                
-</div>
-</div>
+  </div>
 </footer>
-</div>
-</div>
-</div>
-</section>
