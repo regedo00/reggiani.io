@@ -30,7 +30,7 @@ Enthusiastic about innovation and technology. Every week, I curate [☕Tech Read
 
 &nbsp;
 
-I love being on the road traveling. I've explored more than [50 countries](../../stuff/20211204_travelmap/) so far, and in 2014, with 7 friends, I completed the [Mongol Rally](https://en.wikipedia.org/wiki/Mongol_Rally), driving a van from Milan (Italy) to Ulaanbaatar (Mongolia) over more than 13.500 km of asphalt and dirt roads.
+I love being on the road travelling. I've explored more than [50 countries](../../stuff/20211204_travelmap/) so far. In 2014 I completed the [Mongol Rally](https://en.wikipedia.org/wiki/Mongol_Rally) with 7 friends, driving a van from Milan (Italy) to Ulaanbaatar (Mongolia); more than 13.500 km of asphalt and dirt roads.
 
 &nbsp;
 

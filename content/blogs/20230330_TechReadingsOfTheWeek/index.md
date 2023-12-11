@@ -1,6 +1,6 @@
 ---
 title: "Tech Readings of the Week"
-description: "📫Yes, I started a weekly newsletter..."
+description: "📫 Yes, I started a weekly newsletter..."
 images: 
     - images/Jumanji.png
 date: 2023-04-30

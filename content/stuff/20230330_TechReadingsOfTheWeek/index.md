@@ -1,6 +1,6 @@
 ---
 title: "TRW, my weekly newsletter"
-description: "📫Check out the latest issues..."
+description: "📫 Check out the latest issues..."
 images: 
     - images/trw.png
 date: 2023-04-30
@@ -20,6 +20,7 @@ exclude: true
 &nbsp;
 
 
+- *dec 09 - 2023* - [Issue #35](https://www.linkedin.com/pulse/trw-35-9-dec-2023-edoardo-reggiani-ot9jf/)
 - *dec 03 - 2023* - [Issue #34](https://www.linkedin.com/pulse/trw-34-3-dec-2023-edoardo-reggiani-lbxsf/)
 - *nov 25 - 2023* - [Issue #33](https://www.linkedin.com/pulse/trw-33-25-nov-2023-edoardo-reggiani-nh0kf/)
 - *nov 18 - 2023* - [Issue #32](https://www.linkedin.com/pulse/trw-32-18-nov-2023-edoardo-reggiani-qg1df)
