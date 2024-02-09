@@ -14,7 +14,11 @@ layout: content
 &nbsp;
 &nbsp;
 
-Currently Head of Growth at [BacktoWork](https://www.backtowork24.com), a platform with the mission to enable Italian startups to secure funds from retail and HNWI investors through syndicates & community rounds. I joined as one of the first employees and followed the company's growth through a management buyout (from the previous owner [Gruppo 24 Ore](https://it.wikipedia.org/wiki/Gruppo_24_ORE)), the acquisition of another startup, a 4 million Series A round from [Intesa Sanpaolo](https://group.intesasanpaolo.com/en/newsroom/press-releases/2019/06/CNT-05-000000053513A)'s CVC, and the acquisition of majority stake from Intesa's parent company. From 2018 to 2023, we supported companies like [WeRoad](https://www.weroad.travel/), [e-Novia](https://e-novia.it/en/), [Xnext](https://www.x-next.com/), [Contents.com](https://www.contents.com/), [Weart](https://weart.it/), [Davinci](https://davincisalute.com/), [Sardexpay](https://www.sardexpay.net/), and many more raising over €80 million.
+I'm currently serving as Managing Director at [ClubDeal Digital](https://www.linkedin.com/company/clubdeal-digital/), a fintech ecosystem that offers sophisticated tools for managing private asset investments, catering to entrepreneurs, HNWI investors, business angels clubs, family offices, and investment funds.
+
+&nbsp;
+
+In the past few years I've been the Head of Growth at [BacktoWork](https://www.backtowork24.com), a platform with the mission to enable Italian startups to secure funds from retail and HNWI investors through syndicates & community rounds. I joined as one of the first employees and followed the company's growth through a management buyout (from the previous owner [Gruppo 24 Ore](https://it.wikipedia.org/wiki/Gruppo_24_ORE)), the acquisition of another startup, a 4 million Series A round from [Intesa Sanpaolo](https://group.intesasanpaolo.com/en/newsroom/press-releases/2019/06/CNT-05-000000053513A)'s CVC, and the acquisition of majority stake from Intesa's parent company. From 2018 to 2023, we supported companies like [WeRoad](https://www.weroad.travel/), [e-Novia](https://e-novia.it/en/), [Xnext](https://www.x-next.com/), [Contents.com](https://www.contents.com/), [Weart](https://weart.it/), [Davinci](https://davincisalute.com/), [Sardexpay](https://www.sardexpay.net/), and many more raising over €80 million.
 
 &nbsp;
 
