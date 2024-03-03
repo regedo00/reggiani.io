@@ -19,7 +19,8 @@ exclude: true
 
 &nbsp;
 
-- *feb 25 - 2024* - [Isseu #41](https://www.linkedin.com/pulse/trw-41-25-feb-2024-edoardo-reggiani-minvf)
+- *mar 03 - 2024* - [Issue #42](https://www.linkedin.com/pulse/trw-42-3-mar-2024-edoardo-reggiani-awq1f)
+- *feb 25 - 2024* - [Issue #41](https://www.linkedin.com/pulse/trw-41-25-feb-2024-edoardo-reggiani-minvf)
 - *feb 11 - 2024* - [Issue #40](https://www.linkedin.com/pulse/trw-40-11-feb-2024-edoardo-reggiani-p67uf)
 - *feb 04 - 2024* - [Issue #39](https://www.linkedin.com/pulse/trw-39-04-feb-2024-edoardo-reggiani-h1qcf)
 - *jan 20 - 2024* - [Issue #38](https://www.linkedin.com/pulse/trw-38-20-jan-2024-edoardo-reggiani-nq23f/)
