@@ -19,6 +19,8 @@ exclude: true
 
 &nbsp;
 
+- *Jun 16 - 2024* - [Issue #54](https://www.linkedin.com/pulse/trw-54-june-16-2024-edoardo-reggiani-vmu5f)
+- *Jun 09 - 2024* - [Issue #53](https://www.linkedin.com/pulse/trw-53-june-09-2024-edoardo-reggiani-4saif)
 - *Jun 02 - 2024* - [Issue #52](https://www.linkedin.com/pulse/trw-52-june-02-2024-edoardo-reggiani-m4qyf)
 - *may 19 - 2024* - [Issue #51](https://www.linkedin.com/pulse/trw-51-may-19-2024-edoardo-reggiani-1eswf)
 - *may 12 - 2024* - [Issue #50](https://www.linkedin.com/pulse/trw-50-may-12-2024-edoardo-reggiani-bm0kf/)
