@@ -19,6 +19,7 @@ exclude: true
 
 &nbsp;
 
+- *Sep 08 - 2024* - [Issue #60](https://www.linkedin.com/pulse/why-humanity-needs-ai-dawn-new-startup-era-own-future-reggiani-zrghf)
 - *Sep 01 - 2024* - [Issue #59](https://www.linkedin.com/pulse/trw-59-sep-01-2024-edoardo-reggiani-zb1hf)
 - *Jul 28 - 2024* - [Issue #58](https://www.linkedin.com/pulse/trw-58-july-28-2024-edoardo-reggiani-3b31f)
 - *Jul 21 - 2024* - [Issue #57](https://www.linkedin.com/pulse/trw-57-july-21-2024-edoardo-reggiani-oat3f/)
