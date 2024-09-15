@@ -11,7 +11,7 @@ exclude: true
 ---
 [![TRW](images/newsletter.png)](https://www.linkedin.com/newsletters/%E2%98%95tech-readings-of-the-week-7039008827605692416/)
 
-**#TRW** is my [weekly LinkedIn newsletter](https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7039008827605692416). A container of thought-provoking tech articles, reports, and resources for founders, retail investors, and everyone in between.
+**#TRW** is my weekly newsletter. You can read it on [LinkedIn](https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7039008827605692416) and [Substack](https://techreadingsoftheweek.substack.com/)
 
 &nbsp;
 
@@ -19,6 +19,7 @@ exclude: true
 
 &nbsp;
 
+- *Sep 15 - 2024* - [Issue #61](https://www.linkedin.com/pulse/future-european-competitiveness-how-china-killing-soul-reggiani-qmfrf)
 - *Sep 08 - 2024* - [Issue #60](https://www.linkedin.com/pulse/why-humanity-needs-ai-dawn-new-startup-era-own-future-reggiani-zrghf)
 - *Sep 01 - 2024* - [Issue #59](https://www.linkedin.com/pulse/trw-59-sep-01-2024-edoardo-reggiani-zb1hf)
 - *Jul 28 - 2024* - [Issue #58](https://www.linkedin.com/pulse/trw-58-july-28-2024-edoardo-reggiani-3b31f)
