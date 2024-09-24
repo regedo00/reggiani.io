@@ -14,7 +14,7 @@ layout: content
 &nbsp;
 &nbsp;
 
-I'm currently serving as Managing Director at [ClubDeal Digital](https://www.linkedin.com/company/clubdeal-digital/), a fintech ecosystem that offers sophisticated tools for managing private asset investments, catering to entrepreneurs, HNWI investors, business angels clubs, family offices, and investment funds.
+I'm currently serving as Managing Director at [ClubDeal Digital](https://www.linkedin.com/company/clubdeal-digital/), an Italian wealth tech company. ClubDeal Digital offers sophisticated tools for managing private asset investments, as well as syndicate and ESOP management, catering to both startups, corporates and investors.
 
 &nbsp;
 
