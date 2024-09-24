@@ -19,6 +19,7 @@ exclude: true
 
 &nbsp;
 
+- *Sep 22 - 2024* - [Issue #62](https://www.linkedin.com/pulse/energy-tech-eating-world-draghi-trying-save-europe-from-reggiani-mv8lf)
 - *Sep 15 - 2024* - [Issue #61](https://www.linkedin.com/pulse/future-european-competitiveness-how-china-killing-soul-reggiani-qmfrf)
 - *Sep 08 - 2024* - [Issue #60](https://www.linkedin.com/pulse/why-humanity-needs-ai-dawn-new-startup-era-own-future-reggiani-zrghf)
 - *Sep 01 - 2024* - [Issue #59](https://www.linkedin.com/pulse/trw-59-sep-01-2024-edoardo-reggiani-zb1hf)
