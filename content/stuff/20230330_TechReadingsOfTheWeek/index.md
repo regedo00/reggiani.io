@@ -19,6 +19,7 @@ exclude: true
 
 &nbsp;
 
+- *Oct 13 - 2024* - [Issue #64](https://www.linkedin.com/pulse/ai-dystopia-utopia-agentic-era-begins-what-founder-mode-reggiani-stlrf)
 - *Oct 06 - 2024* - [Issue #63](https://www.linkedin.com/pulse/why-ai-wont-solve-climate-change-subprime-crisis-italian-reggiani-8gz3f)
 - *Sep 22 - 2024* - [Issue #62](https://www.linkedin.com/pulse/energy-tech-eating-world-draghi-trying-save-europe-from-reggiani-mv8lf)
 - *Sep 15 - 2024* - [Issue #61](https://www.linkedin.com/pulse/future-european-competitiveness-how-china-killing-soul-reggiani-qmfrf)
