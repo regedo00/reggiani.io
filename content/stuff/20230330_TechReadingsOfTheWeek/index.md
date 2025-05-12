@@ -1,5 +1,5 @@
 ---
-title: "TRW, my weekly newsletter"
+title: "TRW, my weekly newsletter [No Longer Active]"
 description: "📫 Check out the latest issues..."
 images: 
     - images/trw.png
