@@ -56,6 +56,10 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
 
+      # 👇 Explicitly set up actions/upload-artifact@v4
+      - name: Setup artifact upload
+        uses: actions/upload-artifact@v4
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
