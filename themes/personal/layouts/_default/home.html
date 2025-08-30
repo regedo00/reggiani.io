@@ -6,8 +6,10 @@
             <div class="column is-half-desktop is-mobile pr-4 is-flex is-vcentered">
                 <div>
                     <p class="py-3 home-text">Hello there! I'm <b>Edo</b>. <br><br>
-                        I’m passionate about <b>technology</b> and work with startups, focusing on fundraising through <b>syndicates</b>. I also enjoy <b>coding</b>, travelling, and taking on challenges like <b>mountaineering</b>.<br><br>
-                        In a previous chapter of my life, I had the honor of competing as a <b>short track speed skater</b> for the Italian National Team, an experience that continues to shape my approach to new ventures.
+                        I build at the intersection of <b>fintech</b> and <b>private markets</b>, creating tools that simplify how companies and investors connect and operate.<br><br>
+                        Outside of work, I enjoy <b>coding</b>, <b>travelling</b>, <b>endurance sports</b>, though lately, my biggest adventure has been <b>fatherhood</b>.  
+                        <br><br>
+                        Earlier in life, I competed as a <b>short track speed skater</b> for the <b>Italian National Team</b>, an experience that still shapes how I approach new ventures. 
                 </div>
         </div>
         <div class="column is-half-desktop is-mobile pl-4 is-flex is-vcentered">
@@ -18,9 +20,9 @@
                         {{ $latestBlogs := where .Site.RegularPages "Section" "blogs" }}
                         {{ $latestStuff := where .Site.RegularPages "Section" "stuff" }}
                         
-                        {{ $latestContent := sort (union $latestBlogs $latestStuff) ".Date" | last 3 }}
+                        {{ $latestContent := union $latestBlogs $latestStuff }}
                         
-                        {{ range $latestContent }}
+                        {{ range first 5 $latestContent }}
                             <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                         {{ end }}
                     </ul>
