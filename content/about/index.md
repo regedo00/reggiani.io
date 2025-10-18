@@ -14,7 +14,7 @@ layout: content
 &nbsp;
 &nbsp;
 
-I'm currently serving as Managing Director at [ClubDeal Digital](https://www.linkedin.com/company/clubdeal-digital/), a regulated Italian fintech company on a mission to simplify private markets. ClubDeal Digital was created to break down the bureaucratic barriers and technological limitations that make private markets inefficient and hold back companies, investors, and intermediaries.
+I'm currently serving as Chief Strategy Officer at [Weltix](https://www.weltix.tech), a regulated Italian fintech company on a mission to simplify private asset management. Weltix was created to break down the bureaucratic barriers and technological limitations that make private asset management inefficient and hold back companies, investors, banks and intermediaries.
 
 &nbsp;
 
@@ -23,7 +23,7 @@ I also serve as Director of [Spazio2023](https://spazio2023.space/), a Special P
 &nbsp;
 
 Previously, I was Head of Growth and a shareholder at [BacktoWork](https://www.backtowork24.com), a platform helping Italian startups raise capital from retail and HNWI investors through syndicates and community rounds. I joined as one of the first employees and had the chance to contribute to the company’s growth through milestones such as a management buyout from [Gruppo 24 Ore](https://it.wikipedia.org/wiki/Gruppo_24_ORE), the acquisition of another startup, a €4M Series A round from [Intesa Sanpaolo](https://group.intesasanpaolo.com/en/newsroom/press-releases/2019/06/CNT-05-000000053513A)'s CVC, and later the acquisition of a majority stake by Intesa itself.  
-From 2018 to 2023, we supported companies including [WeRoad](https://www.weroad.travel/), [e-Novia](https://e-novia.it/en/), [Xnext](https://www.x-next.com/), [Contents.com](https://www.contents.com/), [Weart](https://weart.it/), [Davinci](https://davincisalute.com/), [Sardexpay](https://www.sardexpay.net/), and many others, raising more than €80M in total.
+From 2018 to 2023, we supported companies including [WeRoad](https://www.weroad.travel/), [e-Novia](https://e-novia.it/en/), [Xnext](https://www.x-next.com/), [Contents.com](https://www.contents.com/), [Weart](https://weart.it/), [Davinci](https://davincisalute.com/), and many others, raising more than €80M in total.
 
 &nbsp;
 
