@@ -18,11 +18,11 @@ I'm currently serving as Chief Strategy Officer at [Weltix](https://www.weltix.t
 
 &nbsp;
 
-I also serve as Director of [Spazio2023](https://spazio2023.space/), a Special Purpose Vehicle (SPV) founded in 2023 with the specific goal of investing in the Series C round of [D-Orbit S.p.A.](https://www.dorbit.space/), an Italian pioneer in space logistics and orbital transportation.
+I also serve as Sole Director of [Spazio2023](https://spazio2023.space/), a Special Purpose Vehicle (SPV) founded in 2023 with the specific goal of investing in the Series C round of [D-Orbit S.p.A.](https://www.dorbit.space/), an Italian pioneer in space logistics and orbital transportation.
 
 &nbsp;
 
-Previously, I was Head of Growth and a shareholder at [BacktoWork](https://www.backtowork24.com), a platform helping Italian startups raise capital from retail and HNWI investors through syndicates and community rounds. I joined as one of the first employees and had the chance to contribute to the company’s growth through milestones such as a management buyout from [Gruppo 24 Ore](https://it.wikipedia.org/wiki/Gruppo_24_ORE), the acquisition of another startup, a €4M Series A round from [Intesa Sanpaolo](https://group.intesasanpaolo.com/en/newsroom/press-releases/2019/06/CNT-05-000000053513A)'s CVC, and later the acquisition of a majority stake by Intesa itself.  
+Previously, I was Head of Growth and a shareholder at [BacktoWork](https://it.wikipedia.org/wiki/BacktoWork), a platform helping Italian startups raise capital from retail and HNWI investors through syndicates and community rounds. I joined as one of the first employees and had the chance to contribute to the company’s growth through milestones such as a management buyout from [Gruppo 24 Ore](https://it.wikipedia.org/wiki/Gruppo_24_ORE), the acquisition of another startup, a €4M Series A round from [Intesa Sanpaolo](https://group.intesasanpaolo.com/en/newsroom/press-releases/2019/06/CNT-05-000000053513A)'s CVC, and later the acquisition of a majority stake by Intesa itself.  
 From 2018 to 2023, we supported companies including [WeRoad](https://www.weroad.travel/), [e-Novia](https://e-novia.it/en/), [Xnext](https://www.x-next.com/), [Contents.com](https://www.contents.com/), [Weart](https://weart.it/), [Davinci](https://davincisalute.com/), and many others, raising more than €80M in total.
 
 &nbsp;
@@ -39,6 +39,6 @@ I love being on the road travelling. I've explored more than [50 countries](../.
 
 &nbsp;
 
-If any of this resonates with you, feel free to connect with me on [LinkedIn](https://linkedin.com/in/edoardo-reggiani/), [X](https://twitter.com/EdoardoReggiani), or drop me an email at er[at]reggiani[dot]io.
+If any of this resonates with you, feel free to connect with me on [LinkedIn](https://linkedin.com/in/edoardo-reggiani/), [X](https://twitter.com/EdoardoReggiani), or drop me an email at **e.reggiani**[at]**protonmail**[dot]**com**.
 
 
