@@ -18,7 +18,7 @@ I'm currently serving as Chief Strategy Officer at [Weltix](https://www.weltix.t
 
 &nbsp;
 
-I also serve as Sole Director of [Spazio2023](https://spazio2023.space/), a Special Purpose Vehicle (SPV) founded in 2023 with the specific goal of investing in the Series C round of [D-Orbit S.p.A.](https://www.dorbit.space/), an Italian pioneer in space logistics and orbital transportation.
+I also serve as SPV Manager for [Spazio2023](https://spazio2023.space/) and [Cosmos2025](https://cosmos2025.space/), two Special Purpose Vehicles established to invest approximately €10 million through primary and secondary transactions in [D-Orbit S.p.A.](https://www.dorbit.space/), an Italian pioneer in space logistics and orbital transportation.
 
 &nbsp;
 
